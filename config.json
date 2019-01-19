@@ -1,10 +1,9 @@
 {
     "algo": "cryptonight-heavy",
-    "api": {
+   "api": {
         "port": 0,
         "access-token": null,
-        "id": "iddd",
-        "worker-id": "workid",
+        "worker-id": null,
         "ipv6": false,
         "restricted": true
     },
@@ -21,8 +20,8 @@
     "pools": [
         {
             "url": "ryo.miner.rocks:3333",
-            "user": "RYoLsjEsUqAV9Qr2mHYv13STMVPubCLDHcbJbYmk1xK5VeX1J46HNXzMtVCBgtHTzSEysBgG9u5okaKJxJ3Pf7cnTHH6eDprntn",
-            "pass": "test",
+            "user": "RYoLsjEsUqAV9Qr2mHYv13STMVPubCLDHcbJbYmk1xK5VeX1J46HNXzMtVCBgtHTzSEysBgG9u5okaKJxJ3Pf7cnTHH6eDprntn+5000",
+            "pass": "12345676",
             "keepalive": true,
             "nicehash": false,
             "variant": 0,
