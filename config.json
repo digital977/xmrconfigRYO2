@@ -3,13 +3,10 @@
     "api": {
         "port": 0,
         "access-token": null,
-        "id": null,
         "worker-id": null,
         "ipv6": false,
         "restricted": true
     },
-    "asm": true,
-    "autosave": true,
     "av": 0,
     "background": false,
     "colors": true,
@@ -22,13 +19,12 @@
     "max-cpu-usage": 98,
     "pools": [
         {
-            "url": "ryo.miner.rocks:3333",
+            "url": "pool.ryo.hashvault.pro:3333",
             "user": "RYoLsjEsUqAV9Qr2mHYv13STMVPubCLDHcbJbYmk1xK5VeX1J46HNXzMtVCBgtHTzSEysBgG9u5okaKJxJ3Pf7cnTHH6eDprntn",
-            "pass": "digital977github",
-            "rig-id": "acer",
+            "pass": "test",
+            "keepalive": true,
             "nicehash": false,
-            "keepalive": false,
-            "variant": -1,
+            "variant": 0,
             "tls": false,
             "tls-fingerprint": null
         }
@@ -37,7 +33,6 @@
     "retries": 5,
     "retry-pause": 5,
     "safe": false,
-    "threads": null,
-    "user-agent": null,
-    "watch": false
+    "syslog": false,
+    "threads": null
 }
