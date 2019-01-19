@@ -3,6 +3,7 @@
     "api": {
         "port": 0,
         "access-token": null,
+        "id": "iddd",
         "worker-id": "workid",
         "ipv6": false,
         "restricted": true
