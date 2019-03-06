@@ -1,12 +1,15 @@
 {
     "algo": "cryptonight-heavy",
-   "api": {
+    "api": {
         "port": 0,
         "access-token": null,
+        "id": null,
         "worker-id": null,
         "ipv6": false,
         "restricted": true
     },
+    "asm": true,
+    "autosave": true,
     "av": 0,
     "background": false,
     "colors": true,
@@ -16,16 +19,16 @@
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 74,
+    "max-cpu-usage": 98,
     "pools": [
         {
-            "url": "ryo.miner.rocks:3333",
-            "user": "RYoLsjEsUqAV9Qr2mHYv13STMVPubCLDHcbJbYmk1xK5VeX1J46HNXzMtVCBgtHTzSEysBgG9u5okaKJxJ3Pf7cnTHH6eDprntn",
-            "pass": "w=koteto001",
-            "rig-id": "acer",
-            "keepalive": true,
+            "url": "pool.loki.hashvault.pro:3333",
+            "user": "L6DpNwpwTXSbWzzTzQjJpVMqNsbvn9b4CKoWNjS8S1U9SHxxQHASoF8N3omr7En25oie8rXDa8KAQBqSonQaAV2iMpZmL4E+5000",
+            "pass": "digital977github:wwwq1@mail.bg",
+            "rig-id": "CI320",
             "nicehash": false,
-            "variant": 0,
+            "keepalive": false,
+            "variant": -1,
             "tls": false,
             "tls-fingerprint": null
         }
@@ -34,6 +37,7 @@
     "retries": 5,
     "retry-pause": 5,
     "safe": false,
-    "syslog": false,
-    "threads": null
+    "threads": null,
+    "user-agent": null,
+    "watch": false
 }
